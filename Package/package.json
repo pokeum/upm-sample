@@ -1,0 +1,7 @@
+{
+    "name": "com.pokeum.upm",
+    "version": "0.0.0",
+    "displayName": "UPM Practice",
+    "description": "Practice project for Unity Package Manager",
+    "unity": "2019.3"
+}
