@@ -1,10 +1,19 @@
 {
   "dependencies": {
+    "com.google.external-dependency-manager": {
+      "version": "1.2.178",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.pokeum.upm": {
       "version": "file:../../Package",
       "depth": 0,
       "source": "local",
-      "dependencies": {}
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.178"
+      }
     },
     "com.unity.2d.animation": {
       "version": "3.2.18",
